@@ -1,0 +1,68 @@
+/* ?================= general tags ================= */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body::-moz-selection {
+  color: white;
+}
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+    --main-color:#ea580c;
+    --sec-color:#7c2d12;
+    --gray-color:#4a5565;
+}
+img {
+  display: block;
+  width: 100%;
+}
+p {
+  margin: 0;
+  line-height: 25px;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ?================= general classes ================= */
+.text-main-color{
+    color: var(--main-color);
+}
+.text-sec-color{
+    color: var(--sec-color);
+}
+.text-gray-color{
+    color: var(--gray-color);
+}
+.text-mix-color{
+    background-image: linear-gradient(to right, var(--main-color) 60%, var(--sec-color));
+    background-clip: text;
+    color: transparent;
+}
+.bg-mix-color{
+    background-image: linear-gradient(135deg, var(--main-color), var(--main-color), var(--sec-color));
+}
+.bg-light-main-color{
+    background-color: #FCEEE6;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.transition-5{
+    transition: all 0.5s;
+}
+.bg-icon{
+background-color: #CB6C3B;}
