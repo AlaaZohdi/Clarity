@@ -13,9 +13,9 @@ body::-moz-selection {
   box-sizing: border-box;
 }
 :root {
-    --main-color:#ea580c;
-    --sec-color:#7c2d12;
-    --gray-color:#4a5565;
+  --main-color: #ea580c;
+  --sec-color: #7c2d12;
+  --gray-color: #4a5565;
 }
 img {
   display: block;
@@ -38,31 +38,41 @@ a {
   color: inherit;
 }
 /* ?================= general classes ================= */
-.text-main-color{
-    color: var(--main-color);
+.text-main-color {
+  color: var(--main-color);
 }
-.text-sec-color{
-    color: var(--sec-color);
+.text-sec-color {
+  color: var(--sec-color);
 }
-.text-gray-color{
-    color: var(--gray-color);
+.text-gray-color {
+  color: var(--gray-color);
 }
-.text-mix-color{
-    background-image: linear-gradient(to right, var(--main-color) 60%, var(--sec-color));
-    background-clip: text;
-    color: transparent;
+.text-mix-color {
+  background-image: linear-gradient(
+    to right,
+    var(--main-color) 60%,
+    var(--sec-color)
+  );
+  background-clip: text;
+  color: transparent;
 }
-.bg-mix-color{
-    background-image: linear-gradient(135deg, var(--main-color), var(--main-color), var(--sec-color));
+.bg-mix-color {
+  background-image: linear-gradient(
+    135deg,
+    var(--main-color),
+    var(--main-color),
+    var(--sec-color)
+  );
 }
-.bg-light-main-color{
-    background-color: #FCEEE6;
+.bg-light-main-color {
+  background-color: #fceee6;
 }
-.font-size-14{
-    font-size: 14px;
+.font-size-14 {
+  font-size: 14px;
 }
-.transition-5{
-    transition: all 0.5s;
+.transition-5 {
+  transition: all 0.5s;
 }
-.bg-icon{
-background-color: #CB6C3B;}
+.bg-icon {
+  background-color: #cb6c3b;
+}
